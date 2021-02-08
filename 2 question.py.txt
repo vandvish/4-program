@@ -1,0 +1,24 @@
+str1 = "EduCatiON";
+newStr = "";
+
+s,c = 0,0
+for i in str1: 
+    if (i>='a'and i<='z'): 
+        s=s+1                 
+    if (i>='A'and i<='Z'): 
+     	c=c+1   
+          
+print('small letter: ',s) 
+print('capital letter: ',c) 
+
+
+for j in range(0,len(str1));
+	if str[j].islower():
+	newStr += str[j].upper();
+
+ elif str1[j].isupper():  			
+        newStr += str1[j].lower();  
+      
+    else:  
+        newStr += str1[j];          
+print("String after replacement : " +  newStr); 
